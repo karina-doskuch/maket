@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins';
+}
+
+.logo-link {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.link-nav {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #263238;
+    text-decoration: none;
+}
+
+.nav-btn {
+    border: 2px solid #263238;
+    border-radius: 10px;
+}
+
+.btn-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+}
+
+.main-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: #000000;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+
+.main-btn {
+    background: #263238;
+    border-radius: 10px;
+}
+
+.btn-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
