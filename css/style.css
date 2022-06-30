@@ -1,8 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Poppins';
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-container {
+  /* min-width: 1200px;
+  display: flex;
+    align-items: center; */
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .logo-link {
+    display: inline-block;
     font-weight: 400;
     font-size: 36px;
     line-height: 1.5;
@@ -11,8 +43,19 @@ body {
     text-decoration: none;
 }
 
+.logo-accent {
+    color: #939393;
+}
+
 .nav-list {
+    display: flex;
     list-style: none;
+    
+}
+
+.nav-item {
+    margin-right: 50px;
+     
 }
 
 .link-nav {
