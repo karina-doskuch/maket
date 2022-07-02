@@ -13,6 +13,20 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 img {
     display: block;
     max-width: 100%;
@@ -20,26 +34,31 @@ img {
 }
 
 .header-container {
-  /* min-width: 1200px;
-  display: flex;
-    align-items: center; */
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
+
 .container {
-    width: 1200px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
 .logo-link {
-    display: inline-block;
     font-weight: 400;
     font-size: 36px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     color: #000000;
+    margin-right: 236px; 
     text-decoration: none;
 }
 
@@ -49,16 +68,11 @@ img {
 
 .nav-list {
     display: flex;
-    list-style: none;
-    
-}
-
-.nav-item {
-    margin-right: 50px;
-     
+    gap: 50px;
 }
 
 .link-nav {
+    display: block;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
@@ -68,36 +82,61 @@ img {
 
 .nav-btn {
     border: 2px solid #263238;
+    width: 312px;
+    height: 70px;
     border-radius: 10px;
-}
-
-.btn-text {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: #000000;
+    margin-left: 120px;
+    background-color: #FFFFFF;
+}
+
+.nav-btn:hover {
+    background-color: #263238;
+    color: #FFFFFF;
+    cursor: pointer;
 
 }
 
-.main-title {
+.main-container {
+    min-width: 1400px;
+}
+
+.section-box {
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
     font-weight: 600;
     font-size: 64px;
     line-height: 1.25;
     color: #000000;
+    width: 386px;
+    margin-left: 131px;
+    margin-bottom: 40px;   
 }
 
-.main-text {
+.section-text {
+    width: 700px;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
     color: #8F95A5;
+    padding-left: 131px;
 }
 
-.main-btn {
+.section-btn {
+    width: 426px;
+    height: 100px;
     background: #263238;
     border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 131px ;
 }
 
 .btn-inside {
@@ -106,5 +145,5 @@ img {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #FFFFFF;   
 }
