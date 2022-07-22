@@ -1,0 +1,108 @@
+.skills-title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: var(--line-height);
+    color: var(--main-color);
+    margin-bottom: 60px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-item {
+    max-width: 426px;
+    background: var(--background);
+    border-radius: 10px;
+    padding: 32px 18px;
+}
+
+.skills-img {
+    margin-bottom: 24px;
+}
+
+.listening {
+    margin: 0;
+}
+
+.skills-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.skills-subtitle {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: var(--line-height);
+    color: var(--dark-color);
+}
+
+.skills-text {
+    font-weight: var(--font-weight);
+    font-size: 16px;
+    line-height: var(--line-height);
+    color: var(--grey-color);
+}
+
+.skills-item-listening {
+    font-weight: var(--font-weight);
+    font-size: 16px;
+    line-height: var(--line-height);
+    color: var(--grey-color);
+    margin-right: 114px;
+    width: 324px;
+    height: 70px;
+}
+
+.skills-btn {
+    background: var(--dark-color);
+    border-radius: 10px;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: var(--line-height);
+    margin-top: 30px;
+    width: 230px;
+    height: 60px;
+}
+
+.skills-btn:hover {
+    background-color: var(--color-white);
+    border: 2px solid var(--dark-color);
+    border-radius: 10px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.skills-wrapper-one {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.skills-wrapper-two {
+    margin-top: 30px;
+}
+
+.wrapper-two-img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    max-width: 882px;
+    height: 338px;
+}

@@ -1,0 +1,75 @@
+.pricing-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: var(--line-height);
+    color: var(--main-color);
+  }
+
+  .pricing-list {
+    display: flex;
+  }
+
+  .pricing-item {
+    display: flex;
+    max-width: 426px;
+    height: 584px;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  .pricing-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .pricing-img {
+    height: 320px;
+    margin-bottom: 31px;
+  }
+
+  .pricing-header {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    color: var(--dark-color);
+
+    margin-bottom: 17px;
+  }
+
+  .pricing-text {
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--grey-color);
+    margin: 0;
+  }
+
+  .price-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 23px;
+    max-width: 260px;
+    max-height: 45px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    margin-top: auto;
+  }
+
+  .pricing-price {
+    margin-top: auto;
+   font-weight: var(--font-weight);
+    font-size: 24px;
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--dark-color);
+
+  }
+  .pricing-period {
+    font-weight: var(--font-weight);
+    font-size: 18px;
+    line-height: var(--line-height);
+    text-align: center;
+    color: #546269;
+}

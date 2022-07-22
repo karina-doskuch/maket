@@ -1,0 +1,51 @@
+h1,
+h2,
+h3,
+h4,
+a,
+address,
+img,
+ul,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+  ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+  button {
+    border: 0;
+}
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+section {
+    padding: 90px 0;
+}
+
+.container {
+    max-width: 1338px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
